@@ -10,7 +10,7 @@ class Solution {
         fun(ind+1,ds,result,nums);
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        // Arrays.sort(nums);
+        Arrays.sort(nums);
         HashSet<List<Integer>> result = new HashSet<>();
         List<Integer> ds = new ArrayList<>();
         fun(0, ds, result, nums);
