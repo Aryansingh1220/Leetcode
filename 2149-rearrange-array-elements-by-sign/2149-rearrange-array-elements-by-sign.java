@@ -12,7 +12,7 @@ class Solution {
         }
         int[] ans=new int[nums.length];
         ArrayList<Integer>temp=new ArrayList<>();
-        Collections.fill(temp, 0);
+        // Collections.fill(temp, 0);
         int a=0;
         int b=0;
         for(int i=0;i<nums.length;i++){
